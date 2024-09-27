@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.navbar {
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(4 78 131);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+}
+.logo{
+ padding: 20px; 
+
+}
+.logo img {
+  padding-top: 80px;
+
+}
+.para{
+  width: 56vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(185 216 243);
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 0, 0, .485);
+} 
+
+.navbar ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 40px;
+  font-family: 'Segoe UI';
+  font-size: 18px;
+  font-weight: medium;
+  color: white;
+}
+.navbar ul li {
+  cursor: pointer;
+}
+.navbar ul li span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.navbar ul li span svg{
+  color: white;
+}
+.mainbody{
+  width: 100vw;
+  height: 90vh;
+  background-color: aliceblue;
+  background-size: cover; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.leftside{
+  width: 50vw;
+  height: 90vh;
+  text-align: center;
+  font-family: 'Segoe UI';
+}
+.bodytext{
+  width: 30vw;
+  height: 70vh;
+  margin: 0px auto;
+  text-align: left;
+  font-family: 'Segoe UI';
+}
+.bodytext h1{
+  font-size: 48px;
+  color: rgb(4 78 131);
+  font-weight: 800;
+  margin-top: 25px;
+}
+.bodytext h3{
+  font-size: 36px;
+  color: rgb(4 78 131);
+  font-weight: 400;
+}
+.bodytext h2{
+  color: rgb(46 182 232);
+  font-size: 34px;
+  font-weight: 900;
+}
+.bodytext h4{
+  color: rgb(4 78 131);
+  font-weight: 800;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.leftend{
+  width: 30vw;
+  height: 10vh;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.leftend button{
+  background-color: rgb(4 78 131);
+  width: 12vw;
+  height: 8vh;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+.leftend button:hover{
+  transform: translateY(8%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+.leftend div h1{
+  font-size: 28px;
+  color: rgb(4 78 131);
+  font-weight: 800;
+}
+.leftend div p{
+  color: rgb(4 78 131);
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0px;
+}
+.bodyimage{ 
+  width: 50vw;
+  height: 90vh;
+}
+.bodyimage img{
+  height: 100%;
+  object-fit: cover;
+  padding-left: 250px;
+}
+
+.footer{
+  width: 100vw;
+  height: 70vh;
+  background-color: rgb(244 244 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana;
+  color: black;
+}
+.footer-left{
+  width: 30vw;
+  height: 70vh;
+  margin: auto;
+  text-align: left;
+  font-size: 14px;
+}
+.footer-center{
+  width: 30vw;
+  height: 70vh;
+  margin: auto;
+  text-align: left;
+  font-size: 14px;
+}
+.footer-right{
+  width: 30vw;
+  height: 70vh;
+  margin: auto;
+  text-align: left;
+  font-size: 14px;
+}
+
+.footer-left-text{
+  margin: 50px 0px 0px 40px;
+}
+.footer-left-text h1{
+  font-size: 24px;
+  font-weight: 500;
+}
+.footer-center-text{
+  margin: 50px 0px 0px 40px;
+}
+.footer-center-text h1{
+  font-size: 24px;
+  font-weight: 500;
+}
+.footer-right-text{
+  margin: 50px 0px 0px 40px;
+}
+.footer-right-text h1{
+  font-size: 24px;
+  font-weight: 500;
+}
